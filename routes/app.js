@@ -9,8 +9,10 @@ const router = express.Router();
 // router.get('/admin/getGames', adminController.getGames)
 // router.post('/admin/getGames', adminController.getGames)
 
-app.get('/', function (req, res) {
-    res.render('index', { title: 'Hey', message: 'Hello there!' })
+router.get('/', function (req, res) {
+    res.render('profile', { title: 'Hey', message: 'Hi Christine!' })
   })
 
 module.exports = router;
+
+// Tyler number = 7026064834
